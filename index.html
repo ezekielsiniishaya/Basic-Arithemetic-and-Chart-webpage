@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eazynote</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Concert+One&family=Nanum+Myeongjo:wght@400;700;800&family=Playpen+Sans:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Concert+One&family=Playpen+Sans:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>Basic Arithemetic Operations and Chart</h1>
+
+    <!-- Input fields for basic operations -->
+    <div class="main">
+      <div class="label">
+        <input type="number" id="num1" placeholder="Enter first number" />
+
+        <input type="number" id="num2" placeholder="Enter second number" />
+      </div>
+      <div class="btn">
+        <p id="output">Result will be displayed here.</p>
+        <button id="addBtn">Add</button>
+        <button id="subtractBtn">Subtract</button>
+        <button id="multiplyBtn">Multiply</button>
+        <button id="divideBtn">Divide</button>
+      </div>
+    </div>
+    <div class="canvas">
+      <!-- Canvas for Chart.js -->
+      <h2>Sales Data Chart</h2>
+      <canvas id="myChart"></canvas>
+    </div>
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- Link to external script file -->
+    <script src="script.js"></script>
+  </body>
+</html>
